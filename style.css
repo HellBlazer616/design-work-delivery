@@ -185,7 +185,7 @@ html {
 }
 
 .main {
-  margin-block-start: 10%;
+  margin-block-start: 3%;
 }
 
 .navbar-dark .nav-item.active .nav-link,
@@ -228,6 +228,17 @@ html {
 .question {
   margin-top: 1%;
 }
+
+.top-header {
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+}
+
+.h2 {
+  margin-top: .5rem !important;
+}
+
+.middle {}
 
 @media (min-width: 992px) {}
 
