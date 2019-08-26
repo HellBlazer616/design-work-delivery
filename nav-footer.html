@@ -1,145 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
+    <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
 </head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top fixedElement">
+            <a class="navbar-brand" href="#">SITE</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Active Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled Link</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="eighth">
+            <div class="container-fluid">
 
-<body class="d-flex flex-column h-100">
-	<header>
-		<!-- Fixed navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+            <div class="row parallax total-review">
+                <!-- <div class="col-sm-4 left-footer">
+                    <h3 class="footer-company-about-header">
+                        header1
+                    </h3>
+                    <h3 class="footer-company-about-header">
+                        header2
+                    </h3>
+                    <h3 class="footer-company-about-header">
+                        header3
+                    </h3>
+                </div> -->
+                <div class="col-sm-6 footer-center ">
+                
+                    <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".2s">
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
+                    </div>
 
-	<!-- Begin page content -->
-	<main role="main" class="flex-shrink-0">
-		<div class="container">
-			<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-			<p class="lead">
-				Pin a footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has
-				been added with <code>padding-top: 60px;</code> on the
-				<code>main &gt; .container</code>.
-			</p>
-		</div>
-		<div class="container">
-			<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-			<p class="lead">
-				Pin a footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has
-				been added with <code>padding-top: 60px;</code> on the
-				<code>main &gt; .container</code>.
-			</p>
-		</div>
-		<div class="container">
-			<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-			<p class="lead">
-				Pin a footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has
-				been added with <code>padding-top: 60px;</code> on the
-				<code>main &gt; .container</code>.
-			</p>
-		</div>
-		<div class="container">
-			<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-			<p class="lead">
-				Pin a footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has
-				been added with <code>padding-top: 60px;</code> on the
-				<code>main &gt; .container</code>.
-			</p>
-		</div>
-		<div class="container">
-			<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-			<p class="lead">
-				Pin a footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has
-				been added with <code>padding-top: 60px;</code> on the
-				<code>main &gt; .container</code>.
-			</p>
-		</div>
-		<div class="container">
-			<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-			<p class="lead">
-				Pin a footer to the bottom of the viewport in desktop
-				browsers with this custom HTML and CSS. A fixed navbar has
-				been added with <code>padding-top: 60px;</code> on the
-				<code>main &gt; .container</code>.
-			</p>
-		</div>
-		<div class="container">
-				<h1 class="mt-5">Sticky footer with fixed navbar</h1>
-				<p class="lead">
-					Pin a footer to the bottom of the viewport in desktop
-					browsers with this custom HTML and CSS. A fixed navbar has
-					been added with <code>padding-top: 60px;</code> on the
-					<code>main &gt; .container</code>.
-				</p>
-			</div>
-		
-	</main>
+                    <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".5s">
+                        <i class="fa fa-phone"></i>
+                        <p>+01 771881718</p>
+                    </div>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8">
-					<span class="text-muted">Place sticky footer content here.</span>
+                    <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".8s">
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 right-footer">
+                <p class="footer-company-about wow fadeIn" data-wow-duration="2s"  data-wow-delay="1.9s" >
+                    <span>Website About</span>
+                    Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
+                    Bear claw candy wafer I love pie tart. Lollipop bear claw oat cake dragée oat cake muffin. Pie soufflé cupcake <jelly-o class=""></jelly-o>
+                </p>
+                <div class="footer-icons">
+                    <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.1s"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.4s"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.7s"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="3s"><i class="fa fa-github"></i></a>
+                </div>
+                </div>
+            </div>
+            </div>
+    </section>
+ <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-				</div>
-				<div class="col-sm-4">
-					<span class="text-muted">Place sticky footer content here.</span>
 
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-8">
-					<span class="text-muted">Place sticky footer content here.</span>
-
-				</div>
-				<div class="col-sm-4">
-					<span class="text-muted">Place sticky footer content here.</span>
-
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--   library for gallery - -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <!-- gallery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.compact-gallery',{animation:'slideIn'});
+        </script>
+        <script src="active.js"></script>
 </body>
-
 </html>

@@ -7,18 +7,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-
-.footer {
-  /* position: relative; */
-  /* bottom: 0; */
-  /* width: 100%; */
-  /* Set the fixed height of the footer here */
-  /* height: 260px; */
-  line-height: 60px;
-  /* Vertically center the text there */
-  background-color: #f5f5f5;
+  /* margin-bottom: 60px; */
 }
 
 /* Custom page CSS
@@ -34,3 +23,212 @@ body {
 code {
   font-size: 80%;
 }
+
+#logo_center {
+  display: flex;
+  justify-content: center;
+  top: 0;
+}
+
+.Div {
+  /* for showing div over the video */
+  position: absolute;
+  /* z-index: 1000; */
+  right: 0;
+  width: 100%;
+
+}
+
+/* ..........................FOOTER.............................. */
+.total-review {
+  padding: 40px;
+  bottom: 0;
+}
+
+.left-footer {
+  padding-top: 3%;
+}
+
+.footer-center {
+  padding-top: 4%;
+  padding-left: 3%;
+}
+
+.right-footer {
+  padding-top: 3%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("footer.jpg");
+
+  /* Set a specific height */
+  height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-company-about {
+  display: block;
+  color: #b1b781;
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+  margin: 0;
+}
+
+.footer-company-about span {
+  display: block;
+  color: #d6f202;
+  font-size: 45px;
+  font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+  font-weight: 390;
+  text-transform: uppercase;
+}
+
+.footer-company-about-header {
+  display: block;
+  color: #d6f202;
+  font-size: 40px;
+  font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+  font-weight: 390;
+  text-transform: uppercase;
+  margin: auto;
+  padding-block-end: 2%;
+}
+
+.footer-icons {
+  margin-top: 25px;
+}
+
+.footer-icons a {
+  display: inline-block;
+  width: 37px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #d6f202;
+  border-radius: 3px;
+
+  font-size: 22px;
+  color: #33383b;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-center i {
+  background-color: #d6f202;
+  color: #33383b;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-center p {
+  display: inline-block;
+  color: #b1b781;
+  font-size: 24px;
+  font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-center p span {
+  display: block;
+  color: #b1b781;
+  font-size: 23px;
+  font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.footer-center p a {
+  color: #b1b781;
+  text-decoration: none;
+}
+
+.eighth {
+  position: relative;
+  margin-top: 5%;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+
+  /* for NAv */
+  #logo_center {
+    /* justify-content: right; */
+  }
+}
+
+.main {
+  margin-block-start: 10%;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+  color: #2f2f2f !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #2f2f2f !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #2f2f2f !important;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #2f2f2f !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(28, 22, 25,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.qa-section {
+  /* The image used */
+  background-image: url("qaimage.jpg");
+
+  /* Set a specific height */
+  height: 1080px;
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px; */
+}
+
+.question {
+  margin-top: 1%;
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
