@@ -60,7 +60,7 @@ code {
 
 .parallax {
   /* The image used */
-  background-image: url("footer.jpg");
+  background-image: url("footer4.jpg");
 
   /* Set a specific height */
   height: auto;
@@ -264,7 +264,7 @@ html {
 .navbar .navbar-nav .nav-link:hover {
   /* color: #97aa03; */
   /*color for brocoli */
-  color: #d6f202 !important;
+  color: #009ece !important;
   font-size: 23px;
   -webkit-transition: font-size .3s;
   /* Safari */
@@ -273,5 +273,4 @@ html {
 
 .navbar-brand {
   font-family: 'Pacifico', cursive !important;
-
 }
