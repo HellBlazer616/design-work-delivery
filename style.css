@@ -275,3 +275,117 @@ html {
 .navbar-brand {
   font-family: 'Pacifico', cursive !important;
 }
+
+.img-button {
+  position: absolute;
+  top: 2.5%;
+  left: 10%;
+}
+
+.btn-text {
+  margin-bottom: 0 !important;
+}
+
+.btn-text:focus,
+.btn-text:hover {
+  color: #2f2f2f;
+  /*color for brocoli */
+  font-size: 20px;
+  -webkit-transition: font-size .3s;
+  /* Safari */
+  transition: font-size .3s;
+
+}
+
+.tag-line {
+  position: absolute;
+  top: 1.5%;
+  left: 10%;
+}
+
+.tag-color {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .img-button {
+    position: absolute;
+    top: 3.5%;
+    left: 10%;
+  }
+
+  .tag-line {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+
+  }
+
+  .tag-color {
+    color: white;
+    font-size: 2rem;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .img-button {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+  }
+
+  .tag-line {
+    position: absolute;
+    top: 3%;
+    left: 10%;
+  }
+
+  .tag-color {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .img-button {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+  }
+
+  .tag-line {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+  }
+
+  .tag-color {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .img-button {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .tag-line {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+  }
+
+  .tag-color {
+    color: white;
+    font-size: 2rem;
+  }
+}
