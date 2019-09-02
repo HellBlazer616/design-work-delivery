@@ -1,0 +1,474 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    /* margin-bottom: 60px; */
+}
+
+/* Custom page CSS
+  -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* body>.container {
+    padding: 60px 15px 0;
+  } */
+
+
+
+code {
+    font-size: 80%;
+}
+
+#logo_center {
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+
+.Div {
+    /* for showing div over the video */
+    position: absolute;
+    /* z-index: 1000; */
+    right: 0;
+    width: 100%;
+
+}
+
+/* ..........................FOOTER.............................. */
+.total-review {
+    padding: 40px;
+    bottom: 0;
+}
+
+.left-footer {
+    padding-top: 3%;
+}
+
+
+.footer-center {
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+.right-footer {
+    padding-top: 3%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/index/image/footer4.jpg");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-company-about {
+    display: block;
+    color: #b1b781;
+    font-size: 18px;
+    font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+    margin: 0;
+}
+
+.footer-company-about span {
+    display: block;
+    color: #d6f202;
+    font-size: 45px;
+    font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+    font-weight: 390;
+    text-transform: uppercase;
+}
+
+.footer-company-about-header {
+    display: block;
+    color: #d6f202;
+    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+    font-weight: 390;
+    text-transform: uppercase;
+    margin: auto;
+    padding-block-end: 2%;
+}
+
+.footer-icons {
+    margin-top: 25px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    width: 37px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #d6f202;
+    border-radius: 3px;
+
+    font-size: 22px;
+    color: #33383b;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-center i {
+    background-color: #d6f202;
+    color: #33383b;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-center p {
+    display: inline-block;
+    color: #b1b781;
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-center p span {
+    display: block;
+    color: #b1b781;
+    font-size: 23px;
+    font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.footer-center p a {
+    color: #b1b781;
+    text-decoration: none;
+}
+
+.eighth {
+    position: relative;
+    margin-top: 5%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+
+    /* for NAv */
+    #logo_center {
+        /* justify-content: right; */
+    }
+}
+
+.main {
+    margin-block-start: 3%;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+    color: #2f2f2f !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #2f2f2f !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #2f2f2f !important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #2f2f2f !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(28, 22, 25,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.qa-section {
+    /* The image used */
+    background-image: url("/index/image/qaimage.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.question {
+    margin-top: 1%;
+}
+
+.top-header {
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+}
+
+.h2 {
+    margin-top: .5rem !important;
+}
+
+.middle {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link {
+    /* color: #d6f202; */
+    /*color for brocoli */
+
+    color: #2f2f2f !important;
+    font-size: 20px;
+    font-family: 'Just Another Hand', Helvetica, sans-serif;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+    font-weight: 390;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    right: 0;
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    /* color: #97aa03; */
+    /*color for brocoli */
+    color: #009ece !important;
+    font-size: 23px;
+    -webkit-transition: font-size .3s;
+    /* Safari */
+    transition: font-size .3s;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive !important;
+}
+
+.img-button {
+    position: absolute;
+    top: 2.5%;
+    left: 10%;
+}
+
+.btn-text {
+    margin-bottom: 0 !important;
+}
+
+.btn-text:focus,
+.btn-text:hover {
+    color: #2f2f2f;
+    /*color for brocoli */
+    font-size: 20px;
+    -webkit-transition: font-size .3s;
+    /* Safari */
+    transition: font-size .3s;
+
+}
+
+.tag-line {
+    position: absolute;
+    top: 1.5%;
+    left: 10%;
+}
+
+.tag-color {
+    color: white;
+    font-size: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .img-button {
+        position: absolute;
+        top: 3.5%;
+        left: 10%;
+    }
+
+    .tag-line {
+        position: absolute;
+        top: 2%;
+        left: 10%;
+
+    }
+
+    .tag-color {
+        color: white;
+        font-size: 2rem;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .img-button {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    .tag-line {
+        position: absolute;
+        top: 3%;
+        left: 10%;
+    }
+
+    .tag-color {
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .img-button {
+        position: absolute;
+        top: 9%;
+        left: 10%;
+    }
+
+    .tag-line {
+        position: absolute;
+        top: 7%;
+        left: 10%;
+    }
+
+    .tag-color {
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .img-button {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+    .tag-line {
+        position: absolute;
+        top: 8%;
+        left: 8%;
+    }
+
+    .tag-color {
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+
+
+.color-text {
+    color: coral
+}
+
+/*-- inner banner --*/
+
+.inner-banner {
+    background: url(/index/image/delivery3.jpg)no-repeat 0px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 250px;
+}
+
+.inner-layer {
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 250px;
+}
+
+.breadcrumb {
+    display: -webkit-box;
+    background-color: transparent;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+li.breadcrumb-item a {
+    color: #999;
+    padding: 0;
+}
+
+@media(max-width:1024px) {
+
+    .inner-banner,
+    .inner-layer {
+        min-height: 220px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .inner-banner,
+    .inner-layer {
+        min-height: 200px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .inner-banner,
+    .inner-layer {
+        min-height: 180px;
+    }
+}
+
+@media(max-width:667px) {
+
+    .inner-banner,
+    .inner-layer {
+        min-height: 150px;
+    }
+
+}
+
+@media(max-width:384px) {
+
+    .inner-banner,
+    .inner-layer {
+        min-height: 130px;
+    }
+
+}
+
+/*-- //inner banner --*/
+
+.text-center {
+    padding: 1rem;
+}
