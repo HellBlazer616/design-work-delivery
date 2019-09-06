@@ -1,0 +1,12 @@
+.outer-box {
+    padding: 50px;
+    overflow: hidden;
+}
+
+.inner-box-left{
+    float: left;
+}
+
+.inner-box-right{
+    padding-left: 500px;
+}
