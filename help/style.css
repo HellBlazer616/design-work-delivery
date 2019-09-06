@@ -1,0 +1,12 @@
+.outer-box-left{
+    padding: 300px;
+    float: left;
+}
+
+.outer-box-right{
+    top: 350px;
+}
+
+h1{
+    color: blueviolet;
+}
