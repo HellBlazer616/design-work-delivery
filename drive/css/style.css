@@ -189,6 +189,10 @@ html {
     margin-block-start: 3%;
 }
 
+.navbar-custom {
+    background-color: #587cbf;
+}
+
 .navbar-dark .nav-item.active .nav-link,
 .navbar-dark .nav-item:focus .nav-link,
 .navbar-dark .nav-item:hover .nav-link {

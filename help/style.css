@@ -1,12 +1,21 @@
-.outer-box-left{
+.outer-box-left {
     padding: 300px;
     float: left;
 }
 
-.outer-box-right{
+.outer-box-right {
     top: 350px;
 }
 
-h1{
+h1 {
     color: blueviolet;
+}
+
+.position {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.custom-btn {
+    margin-bottom: 1rem;
 }
